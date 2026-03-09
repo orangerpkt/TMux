@@ -6,7 +6,7 @@ echo "Aggiornamento lista pacchetti..."
 sudo apt-get update
 
 echo "Installazione di tmux..."
-sudo apt-get install -y tmux
+sudo apt-get install -y tmux xclip
 
 SOURCE_CONF="./.tmux.conf"
 DEST_CONF="$HOME/.tmux.conf"
