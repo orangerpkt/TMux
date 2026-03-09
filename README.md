@@ -56,8 +56,12 @@ tabs, or typing `<Ctrl-X>` will kill the current session.
 Moreover, there are two different ways to kill a TMux session:
 
 1. Close all the active windows, using the command `exit`;
-2. Use the command `tmux kill-session -t <session-id>`. The parameter `<session-id>` can be easily obtained using the
-   command `tmux ls`.
+2. Use the following command 
+
+```sh
+tmux kill-session -t <session-id>`
+```
+the parameter `<session-id>` can be easily obtained using the command `tmux ls`.
 
 
 ## Keybindings <a id="keybindings"></a> 
