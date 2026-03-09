@@ -81,7 +81,7 @@ in the [.tmux.conf](.tmux.conf) file:
 
 This TMux configuration allows to use copy-and-paste in combination with the mouse. To copy and paste something
 displayed on your terminal, select the text with your mouse and type `y` (y stands for Yank, just like Vim). Then, you
-can paste the selected text using the combination `<C-S-v>`.
+can paste the selected text using the combination `<Ctrl-s-v>`.
 
 I strongly encourage to use NeoVim in combination with TMux, since these operations are made easily using the default
 NeoVim combinations.
