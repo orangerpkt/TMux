@@ -59,9 +59,8 @@ Moreover, there are two different ways to kill a TMux session:
 2. Use the following command 
 
 ```sh
-tmux kill-session -t <session-id>`
+tmux kill-session -t <session-id>
 ```
-the parameter `<session-id>` can be easily obtained using the command `tmux ls`.
 
 
 ## Keybindings <a id="keybindings"></a> 
